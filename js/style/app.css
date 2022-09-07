@@ -1,0 +1,63 @@
+* {
+  width: 100%;
+  position: relative;
+}
+
+#increase {
+  margin: auto;
+  -webkit-transition: 0.4s ease-in;
+  transition: 0.4s ease-in;
+}
+
+#increase.active {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  background-color: red;
+}
+
+#corner {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  background: red;
+  cursor: pointer;
+}
+
+#keyboard {
+  width: 250px;
+  height: 250px;
+  background: yellow;
+}
+
+#game {
+  width: 200px;
+  height: 200px;
+  border-radius: 50;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+#game.active-game {
+  top: 200px;
+}
+
+.getYourColor {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+#box {
+  width: 10px;
+  height: 100px;
+  background-color: blue;
+}
+/*# sourceMappingURL=app.css.map */
